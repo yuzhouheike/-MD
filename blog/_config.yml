@@ -74,9 +74,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+server:
+  port: 4001
+  compress: true
+  header: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/yuzhouheike/yuzhouheike.github.com.git 
-  branch: master
+  type:
