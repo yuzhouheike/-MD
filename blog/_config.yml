@@ -6,8 +6,8 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
-language:
+author: 王磊磊
+language: zh-Hans
 timezone:
 
 # URL
@@ -75,7 +75,7 @@ pagination_dir: page
 theme: next
 
 server:
-  port: 4002
+  port: 4005
   compress: true
   header: true
 
@@ -85,4 +85,3 @@ deploy:
   type: git
   repo: https://github.com/yuzhouheike/yuzhouheike.github.com.git 
   branch: master
-
